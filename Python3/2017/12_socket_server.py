@@ -11,6 +11,8 @@ host = socket.gethostname()
 
 port = 9999                                           
 
+print("Starting server on",host,"on port",port)
+
 # bind to the port
 serversocket.bind((host, port))                                  
 
